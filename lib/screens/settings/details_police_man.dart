@@ -143,7 +143,7 @@ class _DetailsPoliceManState extends State<DetailsPoliceMan> {
               isEdit
                   ? Row(
                       mainAxisAlignment: MainAxisAlignment.center,
-                      children: [MyGreenButton(text: 'Update')])
+                      children: [MyGreenButton(text: 'Update',onTap: () => Get.back(),)])
                   : Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [

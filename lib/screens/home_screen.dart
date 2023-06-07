@@ -59,7 +59,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 SizedBox(width: 60.w,
                   child: Text(
                     // '${Controllers().userFetchData.name}',
-                    'Namncjksnjcnsjdnksnkdnsklc k jkdwdnkwndkqwndknnkne',
+                    'Name',
                     style:
                         TextStyle(fontSize: 16.sp, fontWeight: FontWeight.w700),maxLines: 2,
                   ),

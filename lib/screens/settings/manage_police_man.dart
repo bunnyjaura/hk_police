@@ -46,9 +46,9 @@ class _ManagePoliceManState extends State<ManagePoliceMan> {
                   return ManagePoliceItem(
                     img: '',
                     // data.value[index]['image'],
-                    subtitle: "SHO NAME - dfnsjdfnsdnfisdnfisdnfisdnmfponfdsmfpo",
+                    subtitle: "SHO NAME - Name",
                     // ${data.value[index]['SHO_name']}",
-                    title: 'adnajsndjabsdjuasndionsodnsaodnoiasdniosadnoidsnioanasibc'
+                    title: 'XYZ Police Name'
                     // data.value[index]['policeStation_Name'],
                     // data: data.value[index],
                   );

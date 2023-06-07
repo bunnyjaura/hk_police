@@ -39,7 +39,7 @@ void initState() {
         itemCount: 1,
         itemBuilder: (BuildContext context, int index) {
           return ListTile(
-            title: data[index]['title'],
+            title: Text(snapshot.data[index]['title']),
           );
         },
       );
@@ -81,7 +81,7 @@ class ApiController extends GetxController {
 
   final url = 'https://jsonplaceholder.typicode.com/posts';
 
-  getHttp() async {
+ Future getHttp() async {
     Response response = await dio.get(url);
     if (response.statusCode == 200) {
        data1.value = response.data ;

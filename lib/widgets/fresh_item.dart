@@ -48,7 +48,7 @@ class FreshItem extends StatelessWidget {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      SizedBox(width: 60.sp,
+                      SizedBox(width: 59.sp,
                         child: RichText(maxLines: 2,
                             text: TextSpan(children: [
                           TextSpan(

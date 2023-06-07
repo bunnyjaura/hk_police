@@ -125,7 +125,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                               return DetailsItem(
                                   title: 
                                   items[index],
-                                  subtitle: 'abgvgvgvuybyubiubiubiubiubiubiubububuibuibuibuibuibuibuibuibuudnfdnfneonfoweinfoienwiojdiejideiwdc',
+                                  subtitle: 'abgvnfneiwdc',
                                   // details[index],
                                   isDropDown: false);
                             },
@@ -162,7 +162,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                           itemBuilder: (BuildContext context, int index) {
                             return DetailsItem(
                                 title: items[index],
-                                subtitle:'awdqdjqwbduiqbnduihiudqwhihwdqoihwiodniwodninqiwodniowqndionwionqdnjwqdnjqwndiuniqudnioqdwniodwnioqwdnionwdqioqdnwbc',
+                                subtitle:'awdqdjqwbduiqbnd',
                                 //  details[index],
                                 isDropDown: false);
                           },

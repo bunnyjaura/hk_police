@@ -45,9 +45,9 @@ class _HistoryScreenState extends State<HistoryScreen> {
                   return HistoryItem(
                     img: '',
                     // data.value[index]['image'],
-                    title: 'abfewjnfjkwenfjwnebfjbwefbewfniofeniwec',
+                    title: '7587587',
                     // data.value[index]['patient_no'],
-                    subtitle: 'fwcjndjvcwbnuvbnoiebnviwenhoviweniovnieojvopiewjfpojwepfojdef',
+                    subtitle: 'Address',
                     // data.value[index]['patient_address'],
                     date: '10 June 2023'
                     // data.value[index]['created'],

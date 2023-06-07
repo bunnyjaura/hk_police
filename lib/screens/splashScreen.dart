@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:hk_police/screens/home_screen.dart';
+import 'package:hk_police/screens/login_screen.dart';
 
 
 class SplashScreen extends StatefulWidget {
@@ -34,7 +35,7 @@ class _SplashScreenState extends State<SplashScreen> {
       //   Controllers().userPutData.updated = value['details']['updated'];
       // }
       // value == null ? Get.to(LoginScreen()) : Get.to(HomeScreen());
-      Get.to(const HomeScreen());
+      Get.to(const LoginScreen());
     });
   }
 

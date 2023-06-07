@@ -67,11 +67,11 @@ var data1 = [].obs;
                     return FreshItem(
                       // data: data.value[index],
                       // data1: data1.value,
-                      caseNo: 'ABdfwjkbfcuiwehfbcuiwhefuihwefiojewiojfoiejwfC',
+                      caseNo: '5467587',
                       // data.value[index]['patient_no'],
                       date: '10 June 2023',
                       // data.value[index]['created'],
-                      location:'CDcnsdkncvkdsnfiodsjnfiosdjfiosdjofsoidjfojfdinF'
+                      location:'Mohali'
                       //  data.value[index]['patient_address'],
                     );
                   },

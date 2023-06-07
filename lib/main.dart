@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:hk_police/screens/splashScreen.dart';
 import 'package:hk_police/screens/test.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home:  TestScreen(),
+      home:  SplashScreen(),
       debugShowCheckedModeBanner: false,
     );
     },);

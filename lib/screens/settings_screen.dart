@@ -5,6 +5,7 @@ import 'package:hk_police/screens/settings/about.dart';
 import 'package:hk_police/screens/settings/help.dart';
 import 'package:hk_police/screens/settings/manage_police_man.dart';
 import 'package:hk_police/screens/settings/terms.dart';
+import 'package:hk_police/screens/splashScreen.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 
 import '../widgets/custom_appbar.dart';
@@ -121,9 +122,10 @@ class SettingsScreen extends StatelessWidget {
                 name: i[4]['name'],
                 icon: i[4]['icon'],
                 ontap: () {
+
                   // Api().logout().whenComplete(() => null).then((value) {
                   //   box.erase();
-                  //   Get.offAll(const SplashScreen());
+                    Get.offAll(const SplashScreen());
                   // });
                 })
           ],
